@@ -9,6 +9,31 @@
 <body>
 
     <h1>Cadastro de alunos - Hogwarts</h1>
+    <form id="alunoForm">
+        <input type="text" id="alunoNome" placeholder="Nome do Aluno" required>
+        <select id="alunoCasa">
+            <option value="Grifinória">Grifinória</option>
+            <option value="Sonserina">Sonserina</option>
+            <option value="Corvinal">Corvinal</option>
+            <option value="Lufa-Lufa">Lufa-Lufa</option>
+        </select>
+        <input type="text" id="alunoMagia" placeholder="Magia Favorita" required>
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Alunos Cadastrados</h2>
+    <table id="alunosTable">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Casa</th>
+                <th>Magia Favorita</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
 
 
     <script src="/js/main.js"></script>
