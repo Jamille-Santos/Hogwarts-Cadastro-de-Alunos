@@ -83,3 +83,32 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #3e3a36;
 }
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+    input, select, button {
+        width: 100%;
+        padding: 12px;
+    }
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    form {
+        padding: 8px;
+    }
+    input, select, button {
+        padding: 10px;
+    }
+}
